@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-Markers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header starts -->
+    <header>
+        <div class="title-dec">------------------------------------------------------------------------</div>
+        <div class="title" id="title">Book-Markers</div>
+        <div class="title-dec" style="top: 140px;">
+            ------------------------------------------------------------------------</div>
+    </header>
+    <div class="ribbon"><img src="ribbon2.png" height="280" width="280"></div>
+    <!-- Header ends -->
+
+    <!-- main body starts -->
+    <div class="websites_bookmarks">
+        <div class="add_heading">Add your <b><i> Websites </i></b> and <b><i> Bookmarks </i></b> Here.</div>
+
+        <div class="main_body">
+
+            <!-- website column starts -->
+            <div class="body_col" id="website_col">
+                <div class="main_body_title" id="website_title">Websites
+                    <div class="web_add_del_btn">
+                        <div class="add_website"><button class="add_btn" onclick="new_web_div()">+ Add</button></div>
+                        <!-- <div class="del_website"><button class="del_btn">- Delete</button></div> -->
+                    </div>
+                </div>
+                <div class="website_body">
+                    <ul class="website_list">
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- website column end -->
+
+            <!-- bookmarks column starts -->
+            <div class="body_col" id="bookmark_col">
+                <div class="main_body_title" id="bookmark_title">Bookmarks
+                    <div class="bookmark_add_del_btn">
+                        <div class="add_bookmark"><button class="add_btn" onclick="new_mark_div()">+ Add</button></div>
+                        <!-- <div class="del_website"><button class="del_btn">- Delete</button></div> -->
+                    </div>
+                </div>
+                <div class="bookmark_body">
+                    <ul class="bookmark_list">
+                    </ul>
+                </div>
+            </div>
+            <!-- bookmarks column ends -->
+
+        </div>
+    </div>
+    <!-- main body ends -->
+
+</body>
+<script src="script.js"></script>
+</html>
